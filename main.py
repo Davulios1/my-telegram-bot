@@ -146,7 +146,7 @@ app.add_handler(CommandHandler("start", start))
 app.add_handler(CommandHandler("start", start))
 app.add_handler(CallbackQueryHandler(handle_level_selection, pattern="^level:"))
 
-app.add_handler(CallbackQueryHandler(handle_a1_1_callbacks, pattern="^(start_a1_1|start_test1)$"))
+app.add_handler(CallbackQueryHandler(handle_a1_1_callbacks, pattern="^(start_a1_1|start_test)$"))
 app.add_handler(CallbackQueryHandler(handle_a1_2_callbacks, pattern="^(start_a1_2|start_test2)$"))
 app.add_handler(CallbackQueryHandler(handle_a1_3_callbacks, pattern="^(start_a1_3|start_test3)$"))
 app.add_handler(CallbackQueryHandler(handle_a1_4_callbacks, pattern="^(start_a1_4|start_test4)$"))
