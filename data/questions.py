@@ -1,4 +1,4 @@
-quiz_questions = [
+quiz_questions_a1_1 = [
     {"question": "Ինչպե՞ս կլինի «Ողջույն» անգլերեն։", "options": ["Hello", "Bye", "Thanks", "Please"], "correct_option": 0},
     {"question": "Ո՞րն է անգլերեն այբուբենի առաջին տառը։", "options": ["B", "A", "C", "D"], "correct_option": 1},
     {"question": "Ընտրիր «ես» դերանվան ճիշտ տարբերակը։", "options": ["He", "She", "I", "You"], "correct_option": 2},
